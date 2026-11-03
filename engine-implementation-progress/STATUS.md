@@ -6,11 +6,11 @@
 
 | شاخص | مقدار |
 |------|------|
-| موتورهای با منطق واقعی | **13 / 52** |
-| موتورهای با scaffold | 39 |
-| **مجموع LOC** | **11340** |
-| فاز فعلی | Level 2 (8/11) |
-| گام بعدی | Console, Media, Tenancy (سپس Level 3) |
+| موتورهای با منطق واقعی | **16 / 52** |
+| موتورهای با scaffold | 36 |
+| **مجموع LOC** | **12643** |
+| فاز فعلی | Level 2 ✅ تمام شد |
+| گام بعدی | Level 3 (Cache, Jalali, Database, Error, ...) |
 
 ## پیشرفت بر اساس سطح
 
@@ -18,7 +18,7 @@
 |------|-------------|------------|--------|
 | 0 | 3 | 3 | ✅ تمام شد |
 | 1 | 2 | 2 | ✅ تمام شد |
-| 2 | 11 | 8 | 🟡 73% |
+| 2 | 11 | 11 | ✅ تمام شد |
 | 3 | 11 | 0 | در انتظار |
 | 4 | 5 | 0 | در انتظار |
 | 5 | 7 | 0 | در انتظار |
@@ -26,7 +26,7 @@
 | 7 | 1 | 0 | در انتظار |
 | 8 | 1 | 0 | در انتظار |
 
-## موتورهای تکمیل‌شده با منطق واقعی
+## موتورهای تکمیل‌شده با منطق واقعی (16)
 
 ### Level 0 (3 موتور، 3868 LOC)
 
@@ -43,7 +43,7 @@
 | 1 | Config | [`Tavaan-Engine-Config`](https://github.com/andrbi106/Tavaan-Engine-Config) | 1321 | `fa418c1` |
 | 2 | Pipeline | [`Tavaan-Engine-Pipeline`](https://github.com/andrbi106/Tavaan-Engine-Pipeline) | 618 | `56c3064` |
 
-### Level 2 (8 موتور از 11، 5533 LOC)
+### Level 2 (11 موتور، 6836 LOC)
 
 | # | موتور | Repository | LOC | Commit | اولویت |
 |---|-------|------------|-----|--------|--------|
@@ -55,28 +55,31 @@
 | 6 | Module | [`Tavaan-Engine-Module`](https://github.com/andrbi106/Tavaan-Engine-Module) | 767 | `f7826ee` | P0 |
 | 7 | Filesystem | [`Tavaan-Engine-Filesystem`](https://github.com/andrbi106/Tavaan-Engine-Filesystem) | 1190 | `dea3931` | P1 |
 | 8 | Search | [`Tavaan-Engine-Search`](https://github.com/andrbi106/Tavaan-Engine-Search) | 608 | `2420865` | P1 |
+| 9 | Tenancy | [`Tavaan-Engine-Tenancy`](https://github.com/andrbi106/Tavaan-Engine-Tenancy) | 927 | `e542cc4` | P1 |
+| 10 | Media | [`Tavaan-Engine-Media`](https://github.com/andrbi106/Tavaan-Engine-Media) | 859 | `51f9d58` | P1 |
+| 11 | Console | [`Tavaan-Engine-Console`](https://github.com/andrbi106/Tavaan-Engine-Console) | 870 | `c398c30` | P1 |
 
 ## گزارش‌های تفصیلی
 
 - [Level 0 Report](./LEVEL-0-REPORT.md) — 3868 LOC
 - [Level 1 Report](./LEVEL-1-REPORT.md) — 1939 LOC
-- [Level 2 Report](./LEVEL-2-REPORT.md) — 5533 LOC
+- [Level 2 Report](./LEVEL-2-REPORT.md) — 6836 LOC (تکمیل‌شده)
 
-## موتورهای Level 2 باقی‌مانده
+## موتورهای Level 3 (در انتظار)
 
 | # | موتور | اولویت | وابستگی‌ها |
 |---|-------|--------|------------|
-| 1 | Console | P1 | `container`, `config` |
-| 2 | Media | P1 | `config` |
-| 3 | Tenancy | P1 | `config` |
-
-## آمار کیفیت
-
-- همه‌ی فایل‌های PHP با `declare(strict_types=1)` هستند
-- همه‌ی کلاس‌ها `final` هستند (در صورت لزوم)
-- همه‌ی متدها type-hint شده‌اند
-- هر موتور دارای README، ROADMAP، TICKET، module.json، config، lang/fa + lang/en، tests/Unit + tests/Feature است
-- 100+ unit tests و 50+ feature tests در مجموع
+| 1 | Cache | P0 | `config`, `event` |
+| 2 | Jalali | P0 | `i18n` |
+| 3 | Database | P0 | `config`, `event`, `log` |
+| 4 | Error | P0 | `config`, `log` |
+| 5 | Validation | P0 | `i18n`, `config` |
+| 6 | View | P0 | `event`, `i18n`, `config` |
+| 7 | Audit | P1 | `event`, `database`, `log`, `crypt`, `config` |
+| 8 | HttpClient | P1 | `config`, `event` |
+| 9 | Mail | P1 | `config`, `event` |
+| 10 | Notification | P1 | `config`, `event` |
+| 11 | Observability | P1 | `config`, `log` |
 
 ---
 *Generated on 2026-11-03.*
