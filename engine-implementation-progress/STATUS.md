@@ -6,10 +6,10 @@
 
 | شاخص | مقدار |
 |------|------|
-| موتورهای با منطق واقعی | **22 / 52** (42.3%) |
-| **مجموع LOC** | **17736** |
-| فاز فعلی | Level 3 (6/11) |
-| گام بعدی | Audit, HttpClient, Mail, Notification, Observability |
+| موتورهای با منطق واقعی | **27 / 52** (51.9%) |
+| **مجموع LOC** | **18343** |
+| فاز فعلی | Level 3 ✅ تمام شد |
+| گام بعدی | Level 4 (5 موتور) |
 
 ## پیشرفت بر اساس سطح
 
@@ -18,35 +18,29 @@
 | 0 | 3 | 3 | ✅ تمام شد |
 | 1 | 2 | 2 | ✅ تمام شد |
 | 2 | 11 | 11 | ✅ تمام شد |
-| 3 | 11 | 6 | 🟡 55% |
-| 4-8 | 25 | 0 | در انتظار |
+| 3 | 11 | 11 | ✅ تمام شد |
+| 4 | 5 | 0 | در انتظار |
+| 5 | 7 | 0 | در انتظار |
+| 6 | 1 | 0 | در انتظار |
+| 7 | 1 | 0 | در انتظار |
+| 8 | 1 | 0 | در انتظار |
 
-## موتورهای تکمیل‌شده (22)
+## گزارش‌های تفصیلی
 
-### Level 0-2 (16 موتور، 12643 LOC) — کامل
-Compat, Container, Test, Config, Pipeline, Hash, Crypt, Log, I18n, Event,
-Module, Filesystem, Search, Tenancy, Media, Console
+- [Level 0 Report](./LEVEL-0-REPORT.md) — 3868 LOC ✅
+- [Level 1 Report](./LEVEL-1-REPORT.md) — 1939 LOC ✅
+- [Level 2 Report](./LEVEL-2-REPORT.md) — 6836 LOC ✅
+- [Level 3 Report](./LEVEL-3-REPORT.md) — 5700 LOC ✅
 
-### Level 3 (6 موتور از 11، 5093 LOC) — در حال
+## موتورهای Level 4 (در انتظار)
 
-| # | موتور | Repository | LOC | اولویت |
-|---|-------|------------|-----|--------|
-| 1 | Jalali | Tavaan-Engine-Jalali | 569 | P0 |
-| 2 | Error | Tavaan-Engine-Error | 915 | P0 |
-| 3 | Cache | Tavaan-Engine-Cache | 965 | P0 |
-| 4 | Validation | Tavaan-Engine-Validation | 1006 | P0 |
-| 5 | View | Tavaan-Engine-View | 668 | P0 |
-| 6 | Database | Tavaan-Engine-Database | 1161 | P0 |
-
-## موتورهای Level 3 باقی‌مانده
-
-| # | موتور | اولویت |
-|---|-------|--------|
-| 1 | Audit | P1 |
-| 2 | HttpClient | P1 |
-| 3 | Mail | P1 |
-| 4 | Notification | P1 |
-| 5 | Observability | P1 |
+| # | موتور | اولویت | وابستگی‌ها |
+|---|-------|--------|------------|
+| 1 | ORM | P0 | `database`, `event` |
+| 2 | Http | P0 | `pipeline`, `event`, `error`, `config` |
+| 3 | Schema | P0 | `database` |
+| 4 | Optimizer | P1 | `config`, `console` |
+| 5 | Upgrade | P2 | `console`, `database`, `filesystem` |
 
 ---
-*Generated on 2026-11-03.*
+*Generated on 2026-11-03*
