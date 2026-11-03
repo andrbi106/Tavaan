@@ -6,17 +6,18 @@
 
 | شاخص | مقدار |
 |------|------|
-| موتورهای با منطق واقعی | **3 / 52** |
-| موتورهای با scaffold | 49 |
-| فاز فعلی | Level 0 تکمیل شد |
-| گام بعدی | Level 1 (Config, Pipeline) |
+| موتورهای با منطق واقعی | **5 / 52** |
+| موتورهای با scaffold | 47 |
+| فاز فعلی | Level 1 تکمیل شد |
+| گام بعدی | Level 2 (11 موتور وابسته به Config/Container) |
+| **مجموع LOC** | **5807** |
 
 ## پیشرفت بر اساس سطح
 
 | سطح | تعداد موتور | تکمیل‌شده | وضعیت |
 |------|-------------|------------|--------|
 | 0 | 3 | 3 | ✅ تمام شد |
-| 1 | 2 | 0 | در انتظار |
+| 1 | 2 | 2 | ✅ تمام شد |
 | 2 | 11 | 0 | در انتظار |
 | 3 | 11 | 0 | در انتظار |
 | 4 | 5 | 0 | در انتظار |
@@ -33,17 +34,17 @@
 | 2 | Container | [`Tavaan-Engine-Container`](https://github.com/andrbi106/Tavaan-Engine-Container) | 1385 | `be3189e` | 2026-11-03 |
 | 3 | Test | [`Tavaan-Engine-Test`](https://github.com/andrbi106/Tavaan-Engine-Test) | 1117 | `b43e4f9` | 2026-11-03 |
 
-## موتورهای Level 1 (در انتظار)
+## موتورهای Level 1 (تکمیل‌شده با منطق واقعی)
 
-| # | موتور | Repository | وابستگی‌ها |
-|---|-------|------------|------------|
-| 1 | Config | `Tavaan-Engine-Config` | `container` |
-| 2 | Pipeline | `Tavaan-Engine-Pipeline` | `container` |
+| # | موتور | Repository | LOC | Commit | تاریخ |
+|---|-------|------------|-----|--------|------|
+| 1 | Config | [`Tavaan-Engine-Config`](https://github.com/andrbi106/Tavaan-Engine-Config) | 1321 | `fa418c1` | 2026-11-03 |
+| 2 | Pipeline | [`Tavaan-Engine-Pipeline`](https://github.com/andrbi106/Tavaan-Engine-Pipeline) | 618 | `56c3064` | 2026-11-03 |
 
 ## گزارش‌های تفصیلی
 
-- [Level 0 Report](./LEVEL-0-REPORT.md)
-- (سایر گزارش‌های سطح به‌زودی)
+- [Level 0 Report](./LEVEL-0-REPORT.md) — 3868 LOC
+- [Level 1 Report](./LEVEL-1-REPORT.md) — 1939 LOC
 
 ---
 *Generated on 2026-11-03.*
