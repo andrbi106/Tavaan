@@ -6,10 +6,10 @@
 
 | شاخص | مقدار |
 |------|------|
-| موتورهای با منطق واقعی | **27 / 52** (51.9%) |
-| **مجموع LOC** | **18343** |
-| فاز فعلی | Level 3 ✅ تمام شد |
-| گام بعدی | Level 4 (5 موتور) |
+| موتورهای با منطق واقعی | **32 / 52** (61.5%) |
+| **مجموع LOC** | **22663** |
+| فاز فعلی | Level 4 ✅ تمام شد |
+| گام بعدی | Level 5 (7 موتور) |
 
 ## پیشرفت بر اساس سطح
 
@@ -19,7 +19,7 @@
 | 1 | 2 | 2 | ✅ تمام شد |
 | 2 | 11 | 11 | ✅ تمام شد |
 | 3 | 11 | 11 | ✅ تمام شد |
-| 4 | 5 | 0 | در انتظار |
+| 4 | 5 | 5 | ✅ تمام شد |
 | 5 | 7 | 0 | در انتظار |
 | 6 | 1 | 0 | در انتظار |
 | 7 | 1 | 0 | در انتظار |
@@ -31,16 +31,19 @@
 - [Level 1 Report](./LEVEL-1-REPORT.md) — 1939 LOC ✅
 - [Level 2 Report](./LEVEL-2-REPORT.md) — 6836 LOC ✅
 - [Level 3 Report](./LEVEL-3-REPORT.md) — 5700 LOC ✅
+- [Level 4 Report](./LEVEL-4-REPORT.md) — 4320 LOC ✅
 
-## موتورهای Level 4 (در انتظار)
+## موتورهای Level 5 (در انتظار)
 
 | # | موتور | اولویت | وابستگی‌ها |
 |---|-------|--------|------------|
-| 1 | ORM | P0 | `database`, `event` |
-| 2 | Http | P0 | `pipeline`, `event`, `error`, `config` |
-| 3 | Schema | P0 | `database` |
-| 4 | Optimizer | P1 | `config`, `console` |
-| 5 | Upgrade | P2 | `console`, `database`, `filesystem` |
+| 1 | Cookie | P0 | `http`, `crypt` |
+| 2 | CORS | P0 | `http`, `config` |
+| 3 | Router | P0 | `http`, `container`, `config` |
+| 4 | Security | P0 | `http`, `crypt`, `cache`, `config` |
+| 5 | Session | P0 | `http`, `crypt`, `config` |
+| 6 | API | P1 | `config`, `http` |
+| 7 | Realtime | P2 | `config`, `event`, `http` |
 
 ---
 *Generated on 2026-11-03*
