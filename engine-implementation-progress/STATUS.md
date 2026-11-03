@@ -1,24 +1,27 @@
 # وضعیت پیاده‌سازی ۵۲ موتور — Status
 
-> آخرین به‌روزرسانی: **2026-11-03 10:01:43 UTC**
+> آخرین به‌روزرسانی: **2026-11-03 10:02:17 UTC**
 
 | شاخص | مقدار |
 |------|------|
-| موتورهای پردازش‌شده | 7 / 52 |
-| تکمیل‌شده ✅ | 7 |
-| LOC تولیدشده | 3570 |
+| موتورهای پردازش‌شده | 10 / 52 |
+| تکمیل‌شده ✅ | 10 |
+| LOC تولیدشده | 3622 |
 
 ## جدول پیشرفت
 
 | # | موتور | Repository | Level | Priority | Status | src | tests | LOC | Commit |
 |---|-------|------------|-------|----------|--------|-----|-------|-----|--------|
-| 1 | Plugin | `Tavaan-Engine-Plugin` | 3 | P1 | completed | 13 | 1 | 549 | `026ac7c2` |
-| 2 | Queue | `Tavaan-Engine-Queue` | 3 | P1 | completed | 19 | 1 | 786 | `1f05e337` |
-| 3 | Scaffold | `Tavaan-Engine-Scaffold` | 3 | P1 | completed | 20 | 1 | 643 | `d05a752b` |
-| 4 | Schedule | `Tavaan-Engine-Schedule` | 3 | P1 | completed | 7 | 1 | 295 | `ed5aeee7` |
-| 5 | Search | `Tavaan-Engine-Search` | 2 | P1 | completed | 11 | 1 | 545 | `c5a30843` |
-| 6 | Tenancy | `Tavaan-Engine-Tenancy` | 2 | P1 | completed | 9 | 1 | 386 | `62e74ce8` |
-| 7 | Migration | `Tavaan-Engine-Migration` | 5 | P0 | completed | 9 | 1 | 366 | `5bd06d7a` |
+| 1 | Test | `Tavaan-Engine-Test` | 0 | P0 | completed | 10 | 1 | 514 | `fb259056` |
+| 2 | Filesystem | `Tavaan-Engine-Filesystem` | 2 | P1 | completed | 9 | 1 | 599 | `8a451456` |
+| 3 | Backup | `Tavaan-Engine-Backup` | 3 | P2 | completed | 8 | 1 | 355 | `7fc9d1a0` |
+| 4 | FeatureFlag | `Tavaan-Engine-Feature-Flag` | 2 | P2 | completed | 3 | 1 | 214 | `6b959ae9` |
+| 5 | Payment | `Tavaan-Engine-Payment` | 2 | P2 | completed | 4 | 1 | 199 | `2dba0b8e` |
+| 6 | Realtime | `Tavaan-Engine-Realtime` | 5 | P2 | completed | 6 | 1 | 232 | `86fb4eb1` |
+| 7 | Report | `Tavaan-Engine-Report` | 2 | P2 | completed | 5 | 1 | 331 | `802a00d2` |
+| 8 | Upgrade | `Tavaan-Engine-Upgrade` | 4 | P2 | completed | 8 | 1 | 319 | `07be0709` |
+| 9 | Workflow | `Tavaan-Engine-Workflow` | 2 | P2 | completed | 7 | 1 | 347 | `4c4a801f` |
+| 10 | Admin | `Tavaan-Engine-Admin` | 8 | P2 | completed | 7 | 1 | 512 | `3ebc5691` |
 
 ---
-*Generated on 2026-11-03 10:01:43 UTC.*
+*Generated on 2026-11-03 10:02:17 UTC.*
