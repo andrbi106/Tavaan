@@ -5,8 +5,8 @@
 | Engine | `tavaan.engine.compat` |
 | DOC-ID | `DOC-083E` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Compat |
-| Implementation commit | `bc8deff44ff38978d8f2461d8adc2bbe5eb41c47` |
-| Date | 2026-11-03 09:57:57 UTC |
+| Implementation commit | `cfd4ee22320232c1b715630dd0e133ac9bc00ac9` |
+| Date | 2026-11-03 09:59:01 UTC |
 | Status | ✅ completed |
 | Source files | 10 |
 | Test files | 1 |
