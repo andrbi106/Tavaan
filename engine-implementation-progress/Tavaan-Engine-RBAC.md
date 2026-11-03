@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.rbac` |
 | DOC-ID | `DOC-057` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-RBAC |
-| Implementation commit | `4f426d8754a8f8a3ae7a39c0d39c2decca82de68` |
-| Date | 2026-11-03 10:00:43 UTC |
+| Implementation commit | `2ffb8f8d0060a909fbb32e499935a932085a1c9c` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 6 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 412 |
-| Old src files (replaced) | 12 |
+| Old src files (replaced) | 6 |
 
 ## Generated files
 
@@ -21,7 +21,7 @@
 - `src/GateServiceProvider.php`
 - `src/RoleManager.php`
 - `src/Gate.php`
-- `src/Console/Rbac_syncCommand.php`
+- `src/Console/RbacSyncCommand.php`
 - `src/Contracts/RoleManagerInterface.php`
 - `src/Contracts/GateInterface.php`
 

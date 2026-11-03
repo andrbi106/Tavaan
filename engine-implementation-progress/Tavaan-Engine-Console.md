@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.console` |
 | DOC-ID | `DOC-076` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Console |
-| Implementation commit | `b185a0caab9af01568e4d53ea457d3d07ad7209a` |
-| Date | 2026-11-03 10:01:07 UTC |
+| Implementation commit | `80faa13e922e18d92ab89edcf23e4e715873c093` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 12 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 594 |
-| Old src files (replaced) | 31 |
+| Old src files (replaced) | 12 |
 
 ## Generated files
 

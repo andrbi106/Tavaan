@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.error` |
 | DOC-ID | `DOC-035` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Error |
-| Implementation commit | `feeca699f1384fea90b64d4c69376bb0a57da849` |
-| Date | 2026-11-03 09:59:45 UTC |
+| Implementation commit | `7769c42fececbc358fb586dd7be87d94f7907193` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 8 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 461 |
-| Old src files (replaced) | 10 |
+| Old src files (replaced) | 8 |
 
 ## Generated files
 
@@ -22,7 +22,7 @@
 - `src/ExceptionHandler.php`
 - `src/ErrorHandler.php`
 - `src/ExceptionHandlerServiceProvider.php`
-- `src/Console/Error_simulateCommand.php`
+- `src/Console/ErrorSimulateCommand.php`
 - `src/Contracts/LogMaskerInterface.php`
 - `src/Contracts/ExceptionHandlerInterface.php`
 - `src/Contracts/ErrorHandlerInterface.php`

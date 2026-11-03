@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.config` |
 | DOC-ID | `DOC-032` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Config |
-| Implementation commit | `154a10b6e8f2039b312e1bb03e846f0c99f9ea41` |
-| Date | 2026-11-03 09:59:22 UTC |
+| Implementation commit | `395fe666caa71799b834d11c96a4f2d860271d47` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 8 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 646 |
-| Old src files (replaced) | 13 |
+| Old src files (replaced) | 8 |
 
 ## Generated files
 
@@ -21,9 +21,9 @@
 - `src/RepositoryServiceProvider.php`
 - `src/EnvRepository.php`
 - `src/Repository.php`
-- `src/Console/Config_cacheCommand.php`
-- `src/Console/Config_clearCommand.php`
-- `src/Console/Env_checkCommand.php`
+- `src/Console/ConfigClearCommand.php`
+- `src/Console/ConfigCacheCommand.php`
+- `src/Console/EnvCheckCommand.php`
 - `src/Contracts/EnvRepositoryInterface.php`
 - `src/Contracts/RepositoryInterface.php`
 

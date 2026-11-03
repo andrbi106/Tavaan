@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.i18n` |
 | DOC-ID | `DOC-069` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-I18n |
-| Implementation commit | `71daa6aaac0eeacd8ed7a0ab2e624ba750ba1f74` |
-| Date | 2026-11-03 09:59:22 UTC |
+| Implementation commit | `1b468e0a33d452c9c9fc006919713de8895cb0d7` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 6 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 348 |
-| Old src files (replaced) | 7 |
+| Old src files (replaced) | 6 |
 
 ## Generated files
 
@@ -21,7 +21,7 @@
 - `src/TranslatorServiceProvider.php`
 - `src/PersianFormatter.php`
 - `src/Translator.php`
-- `src/Console/Lang_checkCommand.php`
+- `src/Console/LangCheckCommand.php`
 - `src/Contracts/PersianFormatterInterface.php`
 - `src/Contracts/TranslatorInterface.php`
 

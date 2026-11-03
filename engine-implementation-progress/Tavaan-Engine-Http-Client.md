@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.http-client` |
 | DOC-ID | `DOC-064` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Http-Client |
-| Implementation commit | `53e005148c28f19921600ddb7dc41a2a86dc252c` |
-| Date | 2026-11-03 10:01:07 UTC |
+| Implementation commit | `403f85931968d54444eaba0663c9c206e000edb1` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 3 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 342 |
-| Old src files (replaced) | 19 |
+| Old src files (replaced) | 3 |
 
 ## Generated files
 

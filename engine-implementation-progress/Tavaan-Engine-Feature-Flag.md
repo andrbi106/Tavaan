@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.feature-flag` |
 | DOC-ID | `DOC-075` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Feature-Flag |
-| Implementation commit | `6b959ae97c3c57c718983d4e6d5cfcfbc7706018` |
-| Date | 2026-11-03 10:02:17 UTC |
+| Implementation commit | `d340a15ad223a4f279e65da2fff86dd4fa2207c0` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 3 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 214 |
-| Old src files (replaced) | 5 |
+| Old src files (replaced) | 3 |
 
 ## Generated files
 

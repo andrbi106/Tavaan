@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.cookie` |
 | DOC-ID | `DOC-042` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Cookie |
-| Implementation commit | `59855749154d0c7ca563e2a764f151c1b61d0157` |
-| Date | 2026-11-03 10:00:19 UTC |
+| Implementation commit | `baeef0cd93cd051c02eafbe54e9136218f53f111` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 3 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 198 |
-| Old src files (replaced) | 0 |
+| Old src files (replaced) | 3 |
 
 ## Generated files
 

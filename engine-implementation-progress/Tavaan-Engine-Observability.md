@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.observability` |
 | DOC-ID | `DOC-067` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Observability |
-| Implementation commit | `56e03d088cc375bf4fb2d47b52c2aab9ef9e4171` |
-| Date | 2026-11-03 10:01:07 UTC |
+| Implementation commit | `311cd479da865d6f1a2524fa41c058f00b54d191` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 7 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 348 |
-| Old src files (replaced) | 27 |
+| Old src files (replaced) | 7 |
 
 ## Generated files
 

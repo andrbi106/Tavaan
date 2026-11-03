@@ -5,22 +5,22 @@
 | Engine | `tavaan.engine.session` |
 | DOC-ID | `DOC-041` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Session |
-| Implementation commit | `123f7aed62f4f8cdf68977c5016d5b2bcd630bbb` |
-| Date | 2026-11-03 10:00:19 UTC |
+| Implementation commit | `c1b08006fdb21736f9868220973ea36d74ae5449` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 10 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 660 |
-| Old src files (replaced) | 12 |
+| Old src files (replaced) | 10 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/SessionServiceProvider.php`
 - `src/Session.php`
-- `src/Console/Session_clearCommand.php`
+- `src/Console/SessionClearCommand.php`
 - `src/Stores/ArrayStore.php`
 - `src/Stores/DatabaseStore.php`
 - `src/Stores/CookieStore.php`

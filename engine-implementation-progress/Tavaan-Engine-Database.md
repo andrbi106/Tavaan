@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.database` |
 | DOC-ID | `DOC-047` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Database |
-| Implementation commit | `7084b269cf150b4b6110f4acf9c068bf159e2f3f` |
-| Date | 2026-11-03 09:59:45 UTC |
+| Implementation commit | `2ae038822e1edddaccb4f90a9045360031baaf27` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 5 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 1179 |
-| Old src files (replaced) | 82 |
+| Old src files (replaced) | 5 |
 
 ## Generated files
 

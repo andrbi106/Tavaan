@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.log` |
 | DOC-ID | `DOC-036` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Log |
-| Implementation commit | `6421525c1d14b2d7d07f6c63ed7d95c1834b7f87` |
-| Date | 2026-11-03 09:59:22 UTC |
+| Implementation commit | `93bfe3c8bc4fc0e0f18fbce9ceaf4c291bee0ca3` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 8 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 506 |
-| Old src files (replaced) | 20 |
+| Old src files (replaced) | 8 |
 
 ## Generated files
 
@@ -21,9 +21,9 @@
 - `src/LogManager.php`
 - `src/LogManagerServiceProvider.php`
 - `src/Logger.php`
-- `src/Console/Log_statsCommand.php`
-- `src/Console/Log_tailCommand.php`
-- `src/Console/Log_clearCommand.php`
+- `src/Console/LogClearCommand.php`
+- `src/Console/LogTailCommand.php`
+- `src/Console/LogStatsCommand.php`
 - `src/Contracts/LogManagerInterface.php`
 - `src/Contracts/LoggerInterface.php`
 

@@ -5,25 +5,25 @@
 | Engine | `tavaan.engine.optimizer` |
 | DOC-ID | `DOC-037` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Optimizer |
-| Implementation commit | `f3075732122befd527d85bf9323059f98dec4106` |
-| Date | 2026-11-03 10:01:07 UTC |
+| Implementation commit | `6d783384bb8342b494231869e428a47a3e434201` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 8 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 303 |
-| Old src files (replaced) | 6 |
+| Old src files (replaced) | 8 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/OptimizerServiceProvider.php`
 - `src/Optimizer.php`
-- `src/Console/Config_cacheCommand.php`
-- `src/Console/Config_clearCommand.php`
-- `src/Console/Autoload_cacheCommand.php`
-- `src/Console/Optimize_clearCommand.php`
+- `src/Console/ConfigClearCommand.php`
+- `src/Console/AutoloadCacheCommand.php`
+- `src/Console/ConfigCacheCommand.php`
+- `src/Console/OptimizeClearCommand.php`
 - `src/Console/OptimizeCommand.php`
 - `src/Contracts/OptimizerInterface.php`
 

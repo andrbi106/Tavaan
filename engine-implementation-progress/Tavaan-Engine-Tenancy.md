@@ -5,27 +5,27 @@
 | Engine | `tavaan.engine.tenancy` |
 | DOC-ID | `DOC-082E` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Tenancy |
-| Implementation commit | `62e74ce8b2a44134c1389ec614415754fed07e92` |
-| Date | 2026-11-03 10:01:43 UTC |
+| Implementation commit | `7d59268ad72fce85958ba5d09008919e3f223e74` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 9 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 386 |
-| Old src files (replaced) | 40 |
+| Old src files (replaced) | 9 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/TenantManager.php`
 - `src/TenantManagerServiceProvider.php`
-- `src/Console/Tenant_createCommand.php`
-- `src/Console/Tenant_listCommand.php`
-- `src/Console/Tenant_statsCommand.php`
-- `src/Console/Tenant_migrateCommand.php`
-- `src/Console/Tenant_deleteCommand.php`
-- `src/Console/Db_tenantGuardCommand.php`
+- `src/Console/TenantStatsCommand.php`
+- `src/Console/TenantListCommand.php`
+- `src/Console/TenantCreateCommand.php`
+- `src/Console/TenantDeleteCommand.php`
+- `src/Console/TenantMigrateCommand.php`
+- `src/Console/DbTenantGuardCommand.php`
 - `src/Contracts/TenantManagerInterface.php`
 
 ### Tests (`tests/`)

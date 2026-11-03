@@ -5,38 +5,38 @@
 | Engine | `tavaan.engine.scaffold` |
 | DOC-ID | `DOC-077` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Scaffold |
-| Implementation commit | `d05a752b3da3cd01c7d40c91ea3e76d9ee5181ed` |
-| Date | 2026-11-03 10:01:43 UTC |
+| Implementation commit | `7fa21a1c0fafb7acc31deea5325227f27bee1d40` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 20 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 643 |
-| Old src files (replaced) | 40 |
+| Old src files (replaced) | 20 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/GeneratorManagerServiceProvider.php`
 - `src/GeneratorManager.php`
-- `src/Console/Make_jobCommand.php`
-- `src/Console/Make_modelCommand.php`
-- `src/Console/Make_commandCommand.php`
-- `src/Console/Make_requestCommand.php`
-- `src/Console/Make_listenerCommand.php`
-- `src/Console/Make_widgetCommand.php`
-- `src/Console/Make_policyCommand.php`
-- `src/Console/Make_eventCommand.php`
-- `src/Console/Make_engineCommand.php`
-- `src/Console/Make_migrationCommand.php`
-- `src/Console/Make_controllerCommand.php`
-- `src/Console/Make_factoryCommand.php`
-- `src/Console/Make_middlewareCommand.php`
-- `src/Console/Make_resourceCommand.php`
-- `src/Console/Make_testCommand.php`
-- `src/Console/Make_seederCommand.php`
-- `src/Console/Make_moduleCommand.php`
+- `src/Console/MakeMigrationCommand.php`
+- `src/Console/MakeWidgetCommand.php`
+- `src/Console/MakeJobCommand.php`
+- `src/Console/MakeSeederCommand.php`
+- `src/Console/MakeEngineCommand.php`
+- `src/Console/MakeModuleCommand.php`
+- `src/Console/MakeMiddlewareCommand.php`
+- `src/Console/MakeFactoryCommand.php`
+- `src/Console/MakeResourceCommand.php`
+- `src/Console/MakeRequestCommand.php`
+- `src/Console/MakeCommandCommand.php`
+- `src/Console/MakePolicyCommand.php`
+- `src/Console/MakeListenerCommand.php`
+- `src/Console/MakeTestCommand.php`
+- `src/Console/MakeControllerCommand.php`
+- `src/Console/MakeEventCommand.php`
+- `src/Console/MakeModelCommand.php`
 - `src/Contracts/GeneratorManagerInterface.php`
 
 ### Tests (`tests/`)

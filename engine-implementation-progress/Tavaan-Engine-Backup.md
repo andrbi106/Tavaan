@@ -5,26 +5,26 @@
 | Engine | `tavaan.engine.backup` |
 | DOC-ID | `DOC-068` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Backup |
-| Implementation commit | `7fc9d1a0e1e26f7ef753c193269672d9ffdcdccf` |
-| Date | 2026-11-03 10:02:17 UTC |
+| Implementation commit | `912a783f030660d10de9407f5ac81c8a63a06df2` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 8 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 355 |
-| Old src files (replaced) | 13 |
+| Old src files (replaced) | 8 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/BackupManagerServiceProvider.php`
 - `src/BackupManager.php`
-- `src/Console/Backup_pruneCommand.php`
-- `src/Console/Backup_verifyCommand.php`
-- `src/Console/Backup_listCommand.php`
-- `src/Console/Backup_runCommand.php`
-- `src/Console/Backup_restoreCommand.php`
+- `src/Console/BackupPruneCommand.php`
+- `src/Console/BackupListCommand.php`
+- `src/Console/BackupRunCommand.php`
+- `src/Console/BackupVerifyCommand.php`
+- `src/Console/BackupRestoreCommand.php`
 - `src/Contracts/BackupManagerInterface.php`
 
 ### Tests (`tests/`)

@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.jalali` |
 | DOC-ID | `DOC-070` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Jalali |
-| Implementation commit | `6a07b20ddf5401b6a6c5049976970b605dbd2bfb` |
-| Date | 2026-11-03 09:59:45 UTC |
+| Implementation commit | `ace3213a9bef6c5e0959002f4c218964989124b4` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 7 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 492 |
-| Old src files (replaced) | 0 |
+| Old src files (replaced) | 7 |
 
 ## Generated files
 

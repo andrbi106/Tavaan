@@ -5,22 +5,22 @@
 | Engine | `tavaan.engine.search` |
 | DOC-ID | `DOC-052` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Search |
-| Implementation commit | `c5a30843517b54fa6a5b061d87a99cf25e11f66a` |
-| Date | 2026-11-03 10:01:43 UTC |
+| Implementation commit | `1f226e0b3256a0d432fec8c57abf121926445800` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 11 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 545 |
-| Old src files (replaced) | 15 |
+| Old src files (replaced) | 11 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/SearchManagerServiceProvider.php`
 - `src/SearchManager.php`
-- `src/Console/Search_reindexCommand.php`
+- `src/Console/SearchReindexCommand.php`
 - `src/Stores/TypesenseStore.php`
 - `src/Stores/MysqlStore.php`
 - `src/Stores/SqliteStore.php`

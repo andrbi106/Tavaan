@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.plugin` |
 | DOC-ID | `DOC-079` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Plugin |
-| Implementation commit | `026ac7c25a7d5725403b622910c6007603f58ddb` |
-| Date | 2026-11-03 10:01:43 UTC |
+| Implementation commit | `b073885a6f3a9935011d9d4ea411787ae4f38a84` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 13 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 549 |
-| Old src files (replaced) | 20 |
+| Old src files (replaced) | 13 |
 
 ## Generated files
 
@@ -21,14 +21,14 @@
 - `src/PluginManager.php`
 - `src/PluginManagerServiceProvider.php`
 - `src/Hook.php`
-- `src/Console/Plugin_disableCommand.php`
-- `src/Console/Plugin_uninstallCommand.php`
-- `src/Console/Plugin_installCommand.php`
-- `src/Console/Plugin_updateCommand.php`
-- `src/Console/Plugin_listCommand.php`
-- `src/Console/Plugin_enableCommand.php`
-- `src/Console/Plugin_verifyCommand.php`
-- `src/Console/Plugin_scanCommand.php`
+- `src/Console/PluginVerifyCommand.php`
+- `src/Console/PluginDisableCommand.php`
+- `src/Console/PluginInstallCommand.php`
+- `src/Console/PluginUninstallCommand.php`
+- `src/Console/PluginUpdateCommand.php`
+- `src/Console/PluginScanCommand.php`
+- `src/Console/PluginListCommand.php`
+- `src/Console/PluginEnableCommand.php`
 - `src/Contracts/HookInterface.php`
 - `src/Contracts/PluginManagerInterface.php`
 

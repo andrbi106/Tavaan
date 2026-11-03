@@ -5,27 +5,27 @@
 | Engine | `tavaan.engine.migration` |
 | DOC-ID | `DOC-049` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Migration |
-| Implementation commit | `5bd06d7a3d48761c3da50487ad62cae3f903c528` |
-| Date | 2026-11-03 10:01:43 UTC |
+| Implementation commit | `31d39f6faa25ec1048eda043689219c3150e8ae7` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 9 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 366 |
-| Old src files (replaced) | 6 |
+| Old src files (replaced) | 9 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/MigratorServiceProvider.php`
 - `src/Migrator.php`
-- `src/Console/Migrate_rollbackCommand.php`
-- `src/Console/Migrate_installCommand.php`
-- `src/Console/Migrate_refreshCommand.php`
+- `src/Console/MigrateStatusCommand.php`
+- `src/Console/MigrateFreshCommand.php`
+- `src/Console/MigrateInstallCommand.php`
 - `src/Console/MigrateCommand.php`
-- `src/Console/Migrate_statusCommand.php`
-- `src/Console/Migrate_freshCommand.php`
+- `src/Console/MigrateRollbackCommand.php`
+- `src/Console/MigrateRefreshCommand.php`
 - `src/Contracts/MigratorInterface.php`
 
 ### Tests (`tests/`)

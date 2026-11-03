@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.module` |
 | DOC-ID | `DOC-038` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Module |
-| Implementation commit | `7ef199218f5575f354aa9d9070167b685a393cac` |
-| Date | 2026-11-03 09:59:45 UTC |
+| Implementation commit | `4fc24ce70df6cdc2e0f37a4ea00b4f10722f5ff0` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 11 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 510 |
-| Old src files (replaced) | 14 |
+| Old src files (replaced) | 11 |
 
 ## Generated files
 
@@ -22,10 +22,10 @@
 - `src/ModuleRegistryServiceProvider.php`
 - `src/ModuleRunner.php`
 - `src/ModuleManager.php`
-- `src/Console/Module_disableCommand.php`
-- `src/Console/Module_validateCommand.php`
-- `src/Console/Module_listCommand.php`
-- `src/Console/Module_enableCommand.php`
+- `src/Console/ModuleListCommand.php`
+- `src/Console/ModuleEnableCommand.php`
+- `src/Console/ModuleValidateCommand.php`
+- `src/Console/ModuleDisableCommand.php`
 - `src/Contracts/ModuleManagerInterface.php`
 - `src/Contracts/ModuleRegistryInterface.php`
 - `src/Contracts/ModuleRunnerInterface.php`

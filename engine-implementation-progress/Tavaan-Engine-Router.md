@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.router` |
 | DOC-ID | `DOC-040` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Router |
-| Implementation commit | `5fadfd6edf49b8edf3c48c825134cd1b01fc255c` |
-| Date | 2026-11-03 10:00:19 UTC |
+| Implementation commit | `5f4dc9588121d92c8d1fb99077cfba1ad6400167` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 9 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 825 |
-| Old src files (replaced) | 0 |
+| Old src files (replaced) | 9 |
 
 ## Generated files
 
@@ -21,10 +21,10 @@
 - `src/RouterServiceProvider.php`
 - `src/UrlGenerator.php`
 - `src/Router.php`
-- `src/Console/Route_matchCommand.php`
-- `src/Console/Route_listCommand.php`
-- `src/Console/Route_cacheCommand.php`
-- `src/Console/Route_clearCommand.php`
+- `src/Console/RouteListCommand.php`
+- `src/Console/RouteClearCommand.php`
+- `src/Console/RouteCacheCommand.php`
+- `src/Console/RouteMatchCommand.php`
 - `src/Contracts/RouterInterface.php`
 - `src/Contracts/UrlGeneratorInterface.php`
 

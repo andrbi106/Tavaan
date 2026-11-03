@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.view` |
 | DOC-ID | `DOC-043` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-View |
-| Implementation commit | `1c6e18fcd72c3a13cc98450c8644f98e6823516b` |
-| Date | 2026-11-03 10:00:43 UTC |
+| Implementation commit | `797f02a198034f71f28632d4a7a5944a863c3d60` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 10 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 623 |
-| Old src files (replaced) | 12 |
+| Old src files (replaced) | 10 |
 
 ## Generated files
 
@@ -22,9 +22,9 @@
 - `src/View.php`
 - `src/ViewFactory.php`
 - `src/ViewFactoryServiceProvider.php`
-- `src/Console/View_clearCommand.php`
-- `src/Console/View_directivesCommand.php`
-- `src/Console/View_cacheCommand.php`
+- `src/Console/ViewDirectivesCommand.php`
+- `src/Console/ViewClearCommand.php`
+- `src/Console/ViewCacheCommand.php`
 - `src/Contracts/EscaperInterface.php`
 - `src/Contracts/ViewFactoryInterface.php`
 - `src/Contracts/ViewInterface.php`

@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.upgrade` |
 | DOC-ID | `DOC-081E` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Upgrade |
-| Implementation commit | `07be07096b6531f0b82291c9af626cd900060947` |
-| Date | 2026-11-03 10:02:17 UTC |
+| Implementation commit | `ddb90f98a80ba869e69a4d15ad746089e72f865e` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 8 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 319 |
-| Old src files (replaced) | 16 |
+| Old src files (replaced) | 8 |
 
 ## Generated files
 
@@ -21,10 +21,10 @@
 - `src/UpgraderServiceProvider.php`
 - `src/Upgrader.php`
 - `src/Console/UpgradeCommand.php`
-- `src/Console/Upgrade_checkCommand.php`
-- `src/Console/Upgrade_statusCommand.php`
-- `src/Console/Upgrade_patchesCommand.php`
-- `src/Console/Upgrade_rollbackCommand.php`
+- `src/Console/UpgradeStatusCommand.php`
+- `src/Console/UpgradeCheckCommand.php`
+- `src/Console/UpgradePatchesCommand.php`
+- `src/Console/UpgradeRollbackCommand.php`
 - `src/Contracts/UpgraderInterface.php`
 
 ### Tests (`tests/`)

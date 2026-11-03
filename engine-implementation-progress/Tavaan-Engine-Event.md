@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.event` |
 | DOC-ID | `DOC-033` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Event |
-| Implementation commit | `43ae86718f00f59d7b447c0bbcd355369412bdfb` |
-| Date | 2026-11-03 09:59:22 UTC |
+| Implementation commit | `94ebd342397927b03ede25d628b0902a8ec552e4` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 7 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 411 |
-| Old src files (replaced) | 12 |
+| Old src files (replaced) | 7 |
 
 ## Generated files
 
@@ -21,8 +21,8 @@
 - `src/OutboxRelay.php`
 - `src/EventDispatcherServiceProvider.php`
 - `src/EventDispatcher.php`
-- `src/Console/Event_outboxRelayCommand.php`
-- `src/Console/Event_listCommand.php`
+- `src/Console/EventListCommand.php`
+- `src/Console/EventOutboxRelayCommand.php`
 - `src/Contracts/OutboxRelayInterface.php`
 - `src/Contracts/EventDispatcherInterface.php`
 

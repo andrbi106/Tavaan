@@ -5,22 +5,22 @@
 | Engine | `tavaan.engine.container` |
 | DOC-ID | `DOC-031` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Container |
-| Implementation commit | `2c5330f9eb9a6feba1ec3ec65a45c802bcdfa2d2` |
-| Date | 2026-11-03 09:59:01 UTC |
+| Implementation commit | `22271d5de9a82aee7a2aac1c3876ee35f9dfd952` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 4 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 450 |
-| Old src files (replaced) | 14 |
+| Old src files (replaced) | 4 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/ContainerServiceProvider.php`
 - `src/Container.php`
-- `src/Console/Container_graphCommand.php`
+- `src/Console/ContainerGraphCommand.php`
 - `src/Contracts/ContainerInterface.php`
 
 ### Tests (`tests/`)

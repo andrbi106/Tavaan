@@ -5,8 +5,8 @@
 | Engine | `tavaan.engine.cache` |
 | DOC-ID | `DOC-060` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Cache |
-| Implementation commit | `79968df6375c0449bfbb2c3904c82c00fb8b5acf` |
-| Date | 2026-11-03 09:59:45 UTC |
+| Implementation commit | `06a5d09b781a00563b9551dc2f9a7ad79a171639` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 13 |
 | Test files | 1 |
@@ -21,7 +21,7 @@
 - `src/CacheRepository.php`
 - `src/CacheManagerServiceProvider.php`
 - `src/CacheManager.php`
-- `src/Console/Cache_clearCommand.php`
+- `src/Console/CacheClearCommand.php`
 - `src/Stores/ArrayStore.php`
 - `src/Stores/DatabaseStore.php`
 - `src/Stores/RedisStore.php`

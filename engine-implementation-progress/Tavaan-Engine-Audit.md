@@ -5,25 +5,25 @@
 | Engine | `tavaan.engine.audit` |
 | DOC-ID | `DOC-058` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Audit |
-| Implementation commit | `7758994e0152d049f32115de762b93774b0063ff` |
-| Date | 2026-11-03 10:00:43 UTC |
+| Implementation commit | `c06d3a4325376d022324420c6748ea1b98df46c1` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 7 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 292 |
-| Old src files (replaced) | 10 |
+| Old src files (replaced) | 7 |
 
 ## Generated files
 
 ### Source (`src/`)
 - `src/Auditor.php`
 - `src/AuditorServiceProvider.php`
-- `src/Console/Audit_verifyCommand.php`
-- `src/Console/Audit_showCommand.php`
-- `src/Console/Audit_exportCommand.php`
-- `src/Console/Audit_pruneCommand.php`
+- `src/Console/AuditShowCommand.php`
+- `src/Console/AuditPruneCommand.php`
+- `src/Console/AuditExportCommand.php`
+- `src/Console/AuditVerifyCommand.php`
 - `src/Contracts/AuditorInterface.php`
 
 ### Tests (`tests/`)

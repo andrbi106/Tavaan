@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.report` |
 | DOC-ID | `DOC-072` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Report |
-| Implementation commit | `802a00d2f0ecb69f913b657204ba52a28faed402` |
-| Date | 2026-11-03 10:02:17 UTC |
+| Implementation commit | `2afc408fbe9f165002c9e656be9ae7d93d57c6f5` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 5 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 331 |
-| Old src files (replaced) | 20 |
+| Old src files (replaced) | 5 |
 
 ## Generated files
 

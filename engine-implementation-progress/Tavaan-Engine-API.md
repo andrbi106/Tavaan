@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.api` |
 | DOC-ID | `DOC-044` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-API |
-| Implementation commit | `9437b600478fa405a5d31428b7a4b1c4e4d92a23` |
-| Date | 2026-11-03 10:00:43 UTC |
+| Implementation commit | `c5d251a2383cc48b572ac0fca2d4c960fcc32525` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 6 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 328 |
-| Old src files (replaced) | 17 |
+| Old src files (replaced) | 6 |
 
 ## Generated files
 
@@ -21,7 +21,7 @@
 - `src/JsonResource.php`
 - `src/JsonResourceServiceProvider.php`
 - `src/OpenApiGenerator.php`
-- `src/Console/Api_docsCommand.php`
+- `src/Console/ApiDocsCommand.php`
 - `src/Contracts/JsonResourceInterface.php`
 - `src/Contracts/OpenApiGeneratorInterface.php`
 

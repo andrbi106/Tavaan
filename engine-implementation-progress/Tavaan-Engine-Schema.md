@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.schema` |
 | DOC-ID | `DOC-048` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Schema |
-| Implementation commit | `3b111c5f41258ea62068cbf38ef81f54dee2481a` |
-| Date | 2026-11-03 09:59:45 UTC |
+| Implementation commit | `6835ad3f2d198d433fbbfd92f381a511fb20001d` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 5 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 443 |
-| Old src files (replaced) | 0 |
+| Old src files (replaced) | 5 |
 
 ## Generated files
 

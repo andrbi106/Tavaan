@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.queue` |
 | DOC-ID | `DOC-061` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Queue |
-| Implementation commit | `1f05e33753ee1417e8a4268239034aec5d94ae9e` |
-| Date | 2026-11-03 10:01:43 UTC |
+| Implementation commit | `6ad7f6f69754707a6e7fd8937e7db83a02a4d718` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 19 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 786 |
-| Old src files (replaced) | 48 |
+| Old src files (replaced) | 19 |
 
 ## Generated files
 
@@ -21,14 +21,14 @@
 - `src/QueueManager.php`
 - `src/Worker.php`
 - `src/QueueManagerServiceProvider.php`
-- `src/Console/Queue_workCommand.php`
-- `src/Console/Queue_pruneFailedCommand.php`
-- `src/Console/Queue_monitorCommand.php`
-- `src/Console/Queue_retryCommand.php`
-- `src/Console/Queue_listenCommand.php`
-- `src/Console/Queue_flushCommand.php`
-- `src/Console/Queue_restartCommand.php`
-- `src/Console/Queue_failedCommand.php`
+- `src/Console/QueueFailedCommand.php`
+- `src/Console/QueueFlushCommand.php`
+- `src/Console/QueuePruneFailedCommand.php`
+- `src/Console/QueueMonitorCommand.php`
+- `src/Console/QueueRestartCommand.php`
+- `src/Console/QueueListenCommand.php`
+- `src/Console/QueueRetryCommand.php`
+- `src/Console/QueueWorkCommand.php`
 - `src/Stores/SyncStore.php`
 - `src/Stores/NullStore.php`
 - `src/Stores/DatabaseStore.php`

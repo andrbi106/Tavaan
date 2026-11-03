@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.crypt` |
 | DOC-ID | `DOC-054` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Crypt |
-| Implementation commit | `966177bdccbe4d4b2cae16909fd12bb9c30ab8ec` |
-| Date | 2026-11-03 09:59:22 UTC |
+| Implementation commit | `5d046577a8b61ef99d6583512c88ae6ac415b7b3` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 9 |
 | Test files | 1 |
 | Config files | 0 |
 | Lang files | 2 |
 | LOC | 416 |
-| Old src files (replaced) | 7 |
+| Old src files (replaced) | 9 |
 
 ## Generated files
 
@@ -22,8 +22,8 @@
 - `src/EncrypterServiceProvider.php`
 - `src/Signer.php`
 - `src/BlindIndex.php`
-- `src/Console/Key_generateCommand.php`
-- `src/Console/Key_rotateCommand.php`
+- `src/Console/KeyRotateCommand.php`
+- `src/Console/KeyGenerateCommand.php`
 - `src/Contracts/SignerInterface.php`
 - `src/Contracts/BlindIndexInterface.php`
 - `src/Contracts/EncrypterInterface.php`

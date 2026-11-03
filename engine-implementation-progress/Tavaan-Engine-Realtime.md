@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.realtime` |
 | DOC-ID | `DOC-045` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Realtime |
-| Implementation commit | `86fb4eb1afdf28ac574ebfd7d49f7c711be0e613` |
-| Date | 2026-11-03 10:02:17 UTC |
+| Implementation commit | `fef02bb2ff5755e4ba5c92a19d4748f4c135b793` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 6 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 232 |
-| Old src files (replaced) | 15 |
+| Old src files (replaced) | 6 |
 
 ## Generated files
 
@@ -21,7 +21,7 @@
 - `src/RealtimeManager.php`
 - `src/RealtimeManagerServiceProvider.php`
 - `src/Broadcast.php`
-- `src/Console/Realtime_websocketCommand.php`
+- `src/Console/RealtimeWebsocketCommand.php`
 - `src/Contracts/RealtimeManagerInterface.php`
 - `src/Contracts/BroadcastInterface.php`
 

@@ -5,15 +5,15 @@
 | Engine | `tavaan.engine.media` |
 | DOC-ID | `DOC-074` |
 | Repository | https://github.com/andrbi106/Tavaan-Engine-Media |
-| Implementation commit | `88a6dcd7cd4d833fb32e969a4143a77d2e428fe6` |
-| Date | 2026-11-03 10:01:07 UTC |
+| Implementation commit | `7b3a4ee9774ddb834f136785f2add9fc0a2e7f03` |
+| Date | 2026-11-03 10:03:57 UTC |
 | Status | ✅ completed |
 | Source files | 5 |
 | Test files | 1 |
 | Config files | 1 |
 | Lang files | 2 |
 | LOC | 331 |
-| Old src files (replaced) | 8 |
+| Old src files (replaced) | 5 |
 
 ## Generated files
 
